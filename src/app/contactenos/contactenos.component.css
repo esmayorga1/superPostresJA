@@ -1,0 +1,29 @@
+.container-contactenos{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.color{
+   
+    margin-left: 50px;
+}
+
+.altura{
+    background-color: WHITE;
+    height: 100px;
+}
+
+.titulo2{
+
+    font-size: 40px;
+    font-size: bold;
+    
+}
+
+.mensaje{
+    font-weight: bold;
+    font-size: 30px;
+}
