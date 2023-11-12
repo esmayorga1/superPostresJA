@@ -1,0 +1,35 @@
+.postres{
+    margin-top: 20px;
+}
+
+.imagen-card{
+    padding: 18px;
+}
+
+.titulo-card{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.precio-card{
+    text-align: center;
+    color: gray;
+
+}
+
+.boton-ver-mas{
+
+    text-align: center; 
+    vertical-align: middle; 
+
+ 
+    
+}
+
+.tabla{
+    border: 2px solid black;
+}
+
+
+

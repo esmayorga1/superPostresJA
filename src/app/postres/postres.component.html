@@ -1,1 +1,56 @@
-<p>postres works!</p>
+  <section id="place-time">
+    <div class="container-fluid">
+        <h1>POSTRES DESTACADOS</h1>      
+        <div class="row principal col-12 class">
+
+            <div *ngFor='let postre of postres' class="col-4 postres " >
+                <div class="card" >
+
+                    <img src="..//../assets/Postres 1.png" class="card-img-top imagen-card" alt="...">
+
+
+                    <div class="card-body">
+                     
+                    
+                 
+
+                      <table class="table tabla">
+                        <tbody>
+                          <tr>
+                            <th scope="row" class="titulo-card">{{postre.nombre}}</th>
+                          </tr>
+                          <tr>
+                            <td class="precio-card"> $ {{postre.precio}}</td>
+                          </tr> 
+                          <tr>
+                            <td class="boton-ver-mas"> <a href="#" class="btn btn-primary jus">ver mas</a></td>
+                          </tr>             
+                        </tbody>
+                      </table>
+
+
+
+
+
+
+
+
+                    </div>
+                  </div>
+            </div>    
+        
+      </div>
+
+     </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
