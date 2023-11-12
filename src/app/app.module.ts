@@ -13,12 +13,15 @@ import { FooterComponent } from './footer/footer.component';
 import { MisionVisionComponent } from './mision-vision/mision-vision.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ProductoDetalleComponent } from './producto-detalle/producto-detalle.component';
 
 
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'mision', component: MisionVisionComponent}
+  {path: 'mision', component: MisionVisionComponent},
+  {path: 'postres/:id', component: ProductoDetalleComponent}
+  
  
   ];
   
@@ -35,7 +38,8 @@ const appRoutes: Routes = [
     NuestrosPostesComponent,
     FooterComponent,
     MisionVisionComponent,
-    HomeComponent
+    HomeComponent,
+    ProductoDetalleComponent
   ],
   imports: [
     BrowserModule,

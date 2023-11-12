@@ -1,0 +1,13 @@
+<app-header></app-header>
+<h1>{{postId}}</h1>
+
+<div *ngIf="postreSeleccionado">
+    <h2>{{ postreSeleccionado.nombre }}</h2>
+    <p>Precio: {{ postreSeleccionado.precio }}</p>
+    <p>Descripción: {{ postreSeleccionado.descripcion }}</p>
+    <img src="{{ postreSeleccionado.foto }}" alt="{{ postreSeleccionado.nombre }}">
+  </div>
+  
+  <div *ngIf="!postreSeleccionado">
+    <p>Postre no encontrado</p>
+  </div>
