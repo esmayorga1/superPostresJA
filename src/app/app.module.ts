@@ -10,6 +10,19 @@ import { ContactenosComponent } from './contactenos/contactenos.component';
 import { PostresComponent } from './postres/postres.component';
 import { NuestrosPostesComponent } from './nuestros-postes/nuestros-postes.component';
 import { FooterComponent } from './footer/footer.component';
+import { MisionVisionComponent } from './mision-vision/mision-vision.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+
+
+
+const appRoutes: Routes = [
+  {path: '', component: HomeComponent},
+  {path: 'mision', component: MisionVisionComponent}
+ 
+  ];
+  
+
 
 @NgModule({
   declarations: [
@@ -20,11 +33,14 @@ import { FooterComponent } from './footer/footer.component';
     ContactenosComponent,
     PostresComponent,
     NuestrosPostesComponent,
-    FooterComponent
+    FooterComponent,
+    MisionVisionComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
