@@ -1,13 +1,47 @@
 <app-header></app-header>
-<h1>{{postId}}</h1>
 
-<div *ngIf="postreSeleccionado">
-    <h2>{{ postreSeleccionado.nombre }}</h2>
-    <p>Precio: {{ postreSeleccionado.precio }}</p>
-    <p>Descripción: {{ postreSeleccionado.descripcion }}</p>
-    <img src="{{ postreSeleccionado.foto }}" alt="{{ postreSeleccionado.nombre }}">
-  </div>
-  
-  <div *ngIf="!postreSeleccionado">
-    <p>Postre no encontrado</p>
-  </div>
+   
+<section id="place-time">
+  <div *ngIf="postreSeleccionado" class="container-fluid">
+        
+    <h1 class="titulo">{{postreSeleccionado.nombre }}</h1>      
+      <div class="row principal">
+          <div class="col-12 col-lg-4 pl-0 pr-0 justify-content-center imagen">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+
+
+                <div *ngFor="let foto of fotoPostreSeleccionado" class="carousel-item active">
+                  <img src="..//../assets/{{foto.foto}}" class="d-block w-100" alt="...">
+                </div>
+                 
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+                
+          </div>
+            
+          <div class="col-8 col-lg-8 pt-4 pb-4 justify-content-center container-mensaje" >
+            <div *ngIf="postreSeleccionado" class="row ajustar" >
+              <div class="col-12 vision">
+                <p>{{postreSeleccionado.descripcion}}</p>      
+              </div>
+            </div>                                            
+          </div>            
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <app-footer></app-footer>
+
+
+
+
