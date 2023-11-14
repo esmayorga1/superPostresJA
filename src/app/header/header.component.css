@@ -1,15 +1,35 @@
-
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
 
 .logo {
-    position: absolute;
+    position: fixed;
     z-index: 10001;
-    width: 120px;
-    margin-left: 200px;
-    margin-top: 25px;
+    margin-left: 10%;
+    margin-top: 10px;
     top: 0;
     left: 0;
 }
 
+.imagen-logo{
+    max-width: 150px;
+}
 .bg-color{
-    background-color: blueviolet;
+    background-color: #92000A;
+}
+.texto-logo {
+    visibility: hidden; /* Oculta el texto del logo inicialmente */
+}
+
+@media (max-width: 575px) {
+    .logo {
+        visibility: hidden; 
+    }
+
+    .texto-logo {
+        visibility: visible; 
+    }
 }

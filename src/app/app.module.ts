@@ -20,7 +20,9 @@ import { ProductoDetalleComponent } from './producto-detalle/producto-detalle.co
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'mision', component: MisionVisionComponent},
-  {path: 'postres/:id', component: ProductoDetalleComponent}
+  {path: 'postres/:id', component: ProductoDetalleComponent},
+
+ 
   
  
   ];
