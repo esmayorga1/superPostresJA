@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./empresa.component.css']
 })
 export class EmpresaComponent {
-  texto = "ce paladar es una repostería cuenta con más 10 años de experiencia, ubicada en Bogotá Colombia se caracteriza por preparar postres con un sabor único, saludables y frescos, realizamos cualquier diseño y mensaje para cualquier tipo de eventos."
-
+  texto = " Super Postres JA, cuenta con más de 15 años de experiencia, es una destacada repostería situada en el municipio de Fusagasugá, en el departamento de Cundinamarca. Nos distinguimos por la elaboración de postres que ofrecen un sabor único, siendo proveedores preferidos por diversos restaurantes de alta calidad en la región. Descubre la excelencia en cada bocado, donde la tradición y la maestría se fusionan para brindarte una experiencia gastronómica inigualable."
 }

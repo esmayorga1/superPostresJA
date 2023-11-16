@@ -1,60 +1,101 @@
-*{
-   
+*{  
     padding: 0px !important;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .principal{
-  
     display: flex;
-    background-color: aquamarine;
+    background-color: white;
+}
+
+.titulo-principal{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: red !important;
+    font-size: 45px !important;
+ 
 }
 
 
 /* MENSAJE */
-.container-mensaje{
-    background-color: orange;
-
-
-
-
-}
 
 .titulo2-container{
 
     text-align: center;
     font-size: 100px !important;
-    background-color: sandybrown;
+    background-color: white;
     display: flex;
     justify-content: center;
-
 }
 
 .titulo2{
     color: red;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .texto-largo{
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: white;
     text-align: justify;
-    font-size: 25px;
-    
+    font-size: 25px; 
 }
 
 /* IMAGEN */
-
 .imagen{
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    Max-height: 500px;
+    align-items: center;
+   
+   
+  
+}
+
+.imag{
+    max-height: 500px;
+}
+
+.container-mensaje{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px !important;
+}
+
+
+@media (max-width: 992px) {
+
+      
+
+    .container-mensaje{
+       
+        
+        
+        
+        padding: 30px !important;
+        margin-top: -50px !important;
+     }
+
+     .titulo-principal{
+  
+        padding: 0px !important;
+    }
     
 
+    .principal{
+       
+       
+        margin-top: 0px !important;
+        
+    }
+
+   
+   
+   
 }
