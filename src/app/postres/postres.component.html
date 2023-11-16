@@ -1,27 +1,21 @@
   <section id="place-time">
-    <div class="container-fluid">
-        <h1>POSTRES DESTACADOS</h1>      
-        <div class="row principal col-12 class">
+    <div class="container-fluid general">
+        <h1 class="titulo-princiapal">POSTRES DESTACADOS</h1>      
+        <div class="row principal col-12">
 
-            <div *ngFor='let postre of postres' class="col-4 postres " >
-                <div class="card" >
+            <div *ngFor='let postre of postres' class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 postres " >
+                <div class="card card-detalle" >
 
                     <img src="..//../assets/Postres 1.png" class="card-img-top imagen-card" alt="...">
 
 
                     <div class="card-body">
                      
-                    
-                 
-
                       <table class="table tabla">
                         <tbody>
                           <tr>
                             <th scope="row" class="titulo-card">{{postre.nombre}}</th>
-                          </tr>
-                          <tr>
-                            <td class="precio-card"> $ {{postre.precio}}</td>
-                          </tr> 
+                          </tr>                 
                           <tr>
                             <td class="boton-ver-mas"> <a  [routerLink]="['/postres', postre.id]" class="btn btn-primary jus">ver mas</a></td>
                           </tr>             
