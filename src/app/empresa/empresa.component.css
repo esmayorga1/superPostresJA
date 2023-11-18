@@ -10,7 +10,7 @@
 
 .titulo-principal{
     font-family: 'Times New Roman', Times, serif !important;
-    color: red !important;
+    color: brown !important;
     font-size: 45px !important;
  
 }
@@ -28,7 +28,7 @@
 }
 
 .titulo2{
-    color: red;
+    color: brown;
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -51,9 +51,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
-   
-   
-  
+
+
+
 }
 
 .imag{
@@ -70,32 +70,23 @@
 
 
 @media (max-width: 992px) {
-
-      
-
     .container-mensaje{
-       
-        
-        
-        
+
         padding: 30px !important;
         margin-top: -50px !important;
      }
 
      .titulo-principal{
-  
+
         padding: 0px !important;
     }
-    
 
     .principal{
-       
-       
         margin-top: 0px !important;
-        
     }
 
-   
-   
-   
+    .imag{
+        max-height: 300px;
+    }
+
 }
