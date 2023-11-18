@@ -4,7 +4,7 @@
 
 .principal{  
     display: flex;
-    background-color: aquamarine;
+  
 }
 
 
@@ -23,12 +23,12 @@
 
 /* MENSAJE */
 .container-mensaje{
-    background-color: orange;
+    background-color: white;
 }
 
 
 .titulo2{
-    color: red;
+    color: brown;
     font-size: 35px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -38,4 +38,23 @@
 .mensaje{
     font-size: 20px;
     font-weight: bold;
+}
+.titulo{
+    color: brown !important;
+}
+
+
+
+
+
+@media (max-width: 575px) {
+    .imagen-principal{
+        max-width: 350px;
+    }
+    
+    
+
+    
+    
+    
 }
