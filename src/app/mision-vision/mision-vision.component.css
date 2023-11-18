@@ -5,11 +5,8 @@
 
 .principal{  
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
-
-
 
 /* IMAGEN */
 
@@ -19,27 +16,24 @@
     margin-top: 20px;
     margin-bottom: 20px;
     max-height: 500px;
-    
-
+    align-items: center;   
 }
 
 /* MENSAJE */
 .container-mensaje{
     background-color: white;
     display: flex;
-    justify-content: center;
-   
-   
-    
-  
+    justify-content: center;    
 }
 
 .titulo{
-    margin-top: 50px !important;
+    margin-top: 60px !important;
+    color: brown !important;
 }
 
-
-
+.titulo-mision{
+    margin-top: 65px !important;
+}
 
 .titulo2{
     color: red;
@@ -48,6 +42,7 @@
     margin-bottom: 20px;
     
 }
+
 
 .mensaje{
     font-size: 20px;
@@ -59,10 +54,17 @@
 .vision{
     padding: 20px !important;
 
-
-
 }
+
 
 .ajustar{
     justify-content: center;
+}
+
+@media (max-width: 575px) {
+    
+    .vision{
+        
+        width: 100%;
+    }  
 }
