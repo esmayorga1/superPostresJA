@@ -9,3 +9,21 @@
    
      
  }
+
+ .titulo{
+    color: brown !important;
+    margin-top: 70px !important;
+ }
+
+ @media (max-width: 575px) {
+   
+    .container-mensaje{
+        margin-top: 25px;
+
+    }
+   
+
+   
+   
+   
+}

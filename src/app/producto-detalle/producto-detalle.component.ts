@@ -17,48 +17,49 @@ interface Postre {
 export class ProductoDetalleComponent {
 
   postres: Postre[] = [
-    { nombre: 'Natas', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 1 },
-    { nombre: 'Vaina', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 2 },
-    { nombre: 'Cereales', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 3 },
-    { nombre: 'Delicias', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 4 },
-    { nombre: 'Primero', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 5 },
-    { nombre: 'Primero', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 6 },
+    { nombre: 'Leche Asada', precio: '7000', foto: 'Leche Asada 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 1 },
+    { nombre: 'Postre de Natas', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 2 },
+    { nombre: 'Postre de Maracuyá', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 3 },
+    { nombre: 'Cheesecake', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 4 },
+    { nombre: 'Fan de Caramelo', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 5 },
+    { nombre: 'Tiramisú', precio: '7000', foto: 'Postres 1.png', descripcion: 'Un postre de natas es una deliciosa creación culinaria que destaca por su suavidad y cremosidad', id: 6 },
   ];
 
   postre1 = [
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
+    { foto: 'Leche Asada 1.png' },
+    { foto: 'Leche Asada 2.png' },
+    
   ];
 
   postre2 = [
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
+    { foto: 'Postre de Natas 2.png' },
+    { foto: 'Postre de Natas 1.png' },
+   
   ];
 
   postre3 = [
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
+    { foto: 'Postre Maracuya 2.jpg' },
+    { foto: 'Postre Maracuya 1.jpg' },
+   
   ];
 
   postre4 = [
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
+    { foto: 'chesque 1.png' },
+    { foto: 'chesque 2.png' },
+    { foto: 'chesque 3.png' },
+    
   ];
 
   postre5 = [
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
+    { foto: 'Fasta 1.png' },
+    { foto: 'Fasta 2.png' },
+    
   ];
 
   postre6 = [
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
-    { foto: 'Postres 1.png' },
+    { foto: 'Tiramisu 2.png' },
+    { foto: 'Tiramisu 1.png' },
+    
   ];
 
   postId: number = 0;

@@ -1,12 +1,11 @@
 <app-header></app-header>
-
-   
+ 
 <section id="place-time">
   <div *ngIf="postreSeleccionado" class="container-fluid">
         
     <h1 class="titulo">{{postreSeleccionado.nombre }}</h1>      
       <div class="row principal">
-          <div class="col-12 col-lg-4 pl-0 pr-0 justify-content-center imagen">
+          <div class="col-lg-4 col-md-5 col-sm-5 col-12 justify-content-center imagen">
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
 
@@ -28,9 +27,9 @@
                 
           </div>
             
-          <div class="col-8 col-lg-8 pt-4 pb-4 justify-content-center container-mensaje" >
+          <div class="col-lg-8 col-md-7 col-sm-7 col-12 justify-content-center container-mensaje" >
             <div *ngIf="postreSeleccionado" class="row ajustar" >
-              <div class="col-12 vision">
+              <div class="col-12 descripcion">
                 <p>{{postreSeleccionado.descripcion}}</p>      
               </div>
             </div>                                            
@@ -39,7 +38,6 @@
     </div>
   </section>
   <br>
-
   <app-footer></app-footer>
 
 

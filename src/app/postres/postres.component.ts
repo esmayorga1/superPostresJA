@@ -17,12 +17,12 @@ interface Postre {
 export class PostresComponent {
 
   postres: Postre[] = [
-    { nombre: 'Leche Asada', precio: '7000', foto: 'Postres 1.png', descripcion: '', id:1 },
-    { nombre: 'Postre de Natas', precio: '7000', foto: 'Postres 1.png', descripcion: '',  id:2  },
-    { nombre: 'Postre de Maracuyá', precio: '7000', foto: 'Postres 1.png', descripcion: '' , id:3 },
-    { nombre: 'Cheesecake', precio: '7000', foto: 'Postres 1.png', descripcion: '', id:4  },
-    { nombre: 'Fan', precio: '7000', foto: 'Postres 1.png', descripcion: '', id:5  },
-    { nombre: 'Pendiente', precio: '7000', foto: 'Postres 1.png', descripcion: '' , id:6 },
+    { nombre: 'Leche Asada', precio: '7000', foto: 'Leche Asada 1.png', descripcion: '', id:1 },
+    { nombre: 'Postre de Natas', precio: '7000', foto: 'Postre de Natas 1.png', descripcion: '',  id:2  },
+    { nombre: 'Postre de Maracuyá', precio: '7000', foto: 'Postre Maracuya 1.jpg', descripcion: '' , id:3 },
+    { nombre: 'Cheesecake', precio: '7000', foto: 'chesque 1.png', descripcion: '', id:4  },
+    { nombre: 'Fan de Caramelo', precio: '7000', foto: 'Fasta 2.png', descripcion: '', id:5  },
+    { nombre: 'Tiramisú', precio: '7000', foto: 'Tiramisu 1.png', descripcion: '' , id:6 },
    
   ];
 
