@@ -1,5 +1,11 @@
 /* MENSAJE */
 
+*{
+    font-family: 'Times New Roman', Times, serif
+ }
+
+
+
 
 .container-mensaje{
     background-color: white;
@@ -13,6 +19,7 @@
  .titulo{
     color: brown !important;
     margin-top: 70px !important;
+    text-transform: uppercase;
  }
 
  @media (max-width: 575px) {

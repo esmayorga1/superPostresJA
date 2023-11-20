@@ -10,8 +10,8 @@
               <div class="carousel-inner">
 
 
-                <div *ngFor="let foto of fotoPostreSeleccionado" class="carousel-item active">
-                  <img src="..//../assets/{{foto.foto}}" class="d-block w-100" alt="...">
+                <div *ngFor="let foto of fotoPostreSeleccionado; let first = first" class="carousel-item" [class.active]="first">
+                  <img src="../../assets/{{foto.foto}}" class="d-block w-100" alt="">
                 </div>
                  
               </div>
@@ -38,8 +38,11 @@
     </div>
   </section>
   <br>
+
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 100;">
+    <a href="https://wa.me/+573214486139" target="_blank">
+        <img src="../../assets/WhatsApp.png" alt="Contacto por WhatsApp" style="width: 60px; height: 60px;">
+    </a>
+</div>
+
   <app-footer></app-footer>
-
-
-
-

@@ -21,6 +21,9 @@ const appRoutes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'mision', component: MisionVisionComponent},
   {path: 'postres/:id', component: ProductoDetalleComponent},
+  {path: 'postres/2', component: ProductoDetalleComponent},
+  {path: 'postres/4', component: ProductoDetalleComponent},
+  {path: 'postres/1', component: ProductoDetalleComponent},
 
  
   
