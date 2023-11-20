@@ -1,4 +1,9 @@
 *{
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    margin:0px;
  }
 
+.correciones{
+    padding-left: 25px !important;
+    padding-right: 25px !important;   
+}

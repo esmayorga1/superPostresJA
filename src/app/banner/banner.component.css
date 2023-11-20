@@ -47,6 +47,14 @@
 }
   
 
+
+.slide2{
+  margin-left: -25px !important;
+  margin-right: -25px !important;
+  background-color: rebeccapurple;
+}
+  
+
 @media (max-width: 993px) {
   
 .imagen{
@@ -56,7 +64,3 @@
 }
  
 }
-
-  
-  
-  
