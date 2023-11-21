@@ -13,7 +13,4 @@ export class BannerComponent {
   descripcionBanner1 = "Nuestros postres son el complemento perfecto para cualquier evento"
   descripcionBanner2 = "Si estás buscando un postre para celebrar una ocasión especial, no dudes en visitarnos"
   descripcionBanner3 = "Sabores únicos para paladares exigentes"
-
-
-
 }
